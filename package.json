@@ -1,6 +1,6 @@
 {
   "name": "capacitor-sim-pro",
-  "version": "0.0.3-beta",
+  "version": "0.0.3-alpha3",
   "description": "Capacitor plugin to get user phonenumber information from device's sim cards",
   "keywords": [
     "capacitor",
@@ -24,7 +24,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorSim.podspec"
+    "CapacitorSimPro.podspec"
   ],
   "scripts": {
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.mjs",
