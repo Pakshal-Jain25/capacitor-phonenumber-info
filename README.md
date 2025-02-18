@@ -1,20 +1,20 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
-<h3 align="center">Sim</h3>
-<p align="center"><strong><code>@jonz94/capacitor-sim</code></strong></p>
+<h3 align="center">SIM-PRO</h3>
+<p align="center"><strong><code>capacitor-phonenumber-info/code></strong></p>
 <p align="center">
   Capacitor plugin to get information from device's sim cards.
 </p>
 
 <p align="center">
-  <a href="https://github.com/jonz94/capacitor-sim/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/jonz94/capacitor-sim/ci.yml?branch=main&logo=github&style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@jonz94/capacitor-sim"><img src="https://img.shields.io/npm/l/@jonz94/capacitor-sim?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@jonz94/capacitor-sim"><img src="https://img.shields.io/npm/v/@jonz94/capacitor-sim?style=flat-square" /></a>
+  <a href="https://github.com/Pakshal-Jain25/capacitor-phonenumber-info.git/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/jonz94/capacitor-sim/ci.yml?branch=main&logo=github&style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/capacitor-sim-pro"><img src="https://img.shields.io/npm/l/capacitor-sim-pro?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/capacitor-sim-pro"><img src="https://img.shields.io/npm/v/capacitor-sim-pro?style=flat-square" /></a>
 </p>
 
 ## Install
 
 ```shell
-npm install @jonz94/capacitor-sim
+npm istall capacitor-sim-pro
 npx cap sync
 ```
 
@@ -37,7 +37,7 @@ A working example can be found here: [jonz94/capacitor-sim-demo](https://github.
 ## Usage
 
 ```typescript
-import { Sim } from '@jonz94/capacitor-sim';
+import { Sim } from 'capacitor-phonenumber-info';
 
 const getSimCards = async () => {
   const { simCards } = await Sim.getSimCards();
